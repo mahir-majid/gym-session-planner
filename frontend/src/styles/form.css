@@ -1,0 +1,109 @@
+body {
+    background-color: #e7e7e7;
+    background-size: "cover";
+    width: "100%"
+  }
+  
+  
+  /*
+  Register
+  */
+  
+  .register-container {
+      background-color: rgb(255, 251, 251);
+      padding-top: 1px;
+      padding-left: 65px;
+      padding-right: 65px;
+      padding-bottom: 50px;
+      border-radius: 25px;
+      margin-top: 65px;
+      background-color: blanchedalmond;
+  }
+  
+  .register-input {
+      width: 200px;
+      height: 25px;
+      border-radius: 15px;
+      padding: 10px;
+      font-size: 20px;
+  }
+  
+  /*
+  Login
+  */
+  
+  .login-container {
+      background-color: white;
+      padding-top: 1px;
+      padding-left: 65px;
+      padding-right: 65px;
+      padding-bottom: 50px;
+      border-radius: 25px;
+      margin-top: 65px;
+      background-color: blanchedalmond;
+  }
+  
+  .login-input {
+      width: 200px;
+      height: 25px;
+      border-radius: 15px;
+      padding: 10px;
+      font-size: 20px;
+  }
+  
+  .login-btn:hover {
+    color: white;
+  }
+  
+  .register-btn:hover {
+    color: white;
+  }
+  
+  /* Navbar */
+  .nav-button {
+      background-color: #ffffff; 
+      color: black; /* Black text */
+      padding: 15px 24px; /* Padding for size */
+      text-align: center; /* Centered text */
+      text-decoration: none; /* No underline */
+      display: inline-block; /* Make the link block-level */
+      font-size: 16px; /* Font size */
+      margin: 4px 2px; /* Some margin */
+      cursor: pointer; /* Pointer/hand icon */
+      border: none; /* Remove borders */
+      font-family: 'Nunito', sans-serif; /* Apply Nunito font */
+    }
+    
+    .nav-button:hover {
+      color: #5eacd4; /* Darker green */
+      text-decoration: underline;
+    }
+    
+    .navbar {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000; /* Ensures the navbar stays on top */
+      white-space: nowrap; /* Prevents the content from wrapping */
+    }
+    
+    .navbar .left-buttons {
+      margin-right: auto;
+    }
+    
+    .navbar .right-buttons {
+      margin-left: auto;
+    }
+    
+    .nav-button img {
+      max-width: 100%; /* Ensure image scales with button */
+      max-height: 100%; /* Ensure image scales with button */
+      vertical-align: middle; /* Align image vertically */
+    }
+    
